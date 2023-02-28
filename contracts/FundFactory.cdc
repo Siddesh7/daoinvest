@@ -1,4 +1,4 @@
-pub contract FundManager {
+pub contract FundFactory {
 
     pub struct Fund {
         pub var manager: Address

@@ -17,7 +17,7 @@
 	"deployments": {
 		"testnet": {
 		 "testnet-account": [
-		  "FundManager"
+		  "FundFactory"
 		 ]
 		}
 	   }
