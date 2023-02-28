@@ -1,14 +1,5 @@
-import StockPriceGraph from "./Charts";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import { ethers } from "ethers";
-import {
-  useAccount,
-  useContractWrite,
-  usePrepareContractWrite,
-  useSigner,
-} from "wagmi";
-import abi from "../abi.json";
 
 export default function Invest({ fundDetails, change, aumchange }) {
   let [isOpen, setIsOpen] = useState(false);
@@ -20,17 +11,9 @@ export default function Invest({ fundDetails, change, aumchange }) {
   function openModal() {
     setIsOpen(true);
   }
-  const { address } = useAccount();
-  const { config: deposit } = usePrepareContractWrite({
-    address: abi.address,
-    abi: abi.abi,
-    functionName: "deposit",
-    args: [amount],
-  });
-  const { writeAsync } = useContractWrite(deposit);
 
   return (
-    <div className="text-white w-[95%] m-auto">
+    <div className="text-white w-[95%] m-auto mt-[100px]">
       <div className="py-[40px]">
         <h1 className="text-3xl text-bold">{fundDetails.fundName}</h1>
         <a href="#">{fundDetails.fundAddress}</a>
@@ -44,10 +27,6 @@ export default function Invest({ fundDetails, change, aumchange }) {
         >
           Invest
         </button>
-        <button class="h-[38px] mr-[5px] bg-gradient-to-r from-green-300 to-green-400 hover:from-orange-400 hover:to-orange-500 text-white font-bold px-4 py-2 rounded-lg">
-          Invest using Superfluid
-        </button>
-        <Withdraw />
       </div>
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -105,7 +84,6 @@ export default function Invest({ fundDetails, change, aumchange }) {
                     <button
                       type="button"
                       className="inline-flex justify-center rounded-md border border-transparent bg-orange-400 px-4 py-2 text-sm font-medium text-gray-100 hover:bg-orange-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                      onClick={writeAsync}
                     >
                       Invest Now
                     </button>
@@ -149,25 +127,7 @@ export default function Invest({ fundDetails, change, aumchange }) {
             )}
           </div>
         </div>
-        <StockPriceGraph asset={"MSFT"} />
       </div>
     </div>
-  );
-}
-
-function Withdraw() {
-  const { config } = usePrepareContractWrite({
-    address: abi.address,
-    abi: abi.abi,
-    functionName: "withdraw",
-  });
-  const { writeAsync } = useContractWrite(config);
-  return (
-    <button
-      class="h-[38px] bg-white text-black font-bold px-4 py-2 rounded-lg"
-      onClick={writeAsync}
-    >
-      Withdraw
-    </button>
   );
 }
