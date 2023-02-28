@@ -1,32 +1,29 @@
 export const funds = [
   {
-    fundName: "Mantle Traders Funds",
-    fundAddress: "0xEd48A72590d4406f80AE2010125cd80d47044c0d",
-    aum: "$262,000",
+    fundName: "Doodle Trader",
+    fundAddress: "0xe51143c424cfd3fc",
+    aum: "$26,000",
     change: "+20%",
     aumChange: "+30%",
-    description:
-      "Think of it as advanced HODLing - a smarter, more strategic approach to investing in the world of cryptocurrency. With our Simple Rebalance Strategy, you can stay ahead of the game and build a portfolio that works for you.",
+    description: "Doodle only",
     allocation: [
       {
-        asset: "Inu",
-        share: "50%",
-        amount: 10000,
-        value: "$1",
-        total: "$1000",
+        asset: "Doodles",
+        url: "https://flowty.mypinata.cloud/ipfs/QmVjzvfP67d8ThQFPd36yMngzLhbZxzeADFmBA5x8kCVfY",
       },
       {
-        asset: "Doge",
-        share: "50%",
-        amount: 100000,
-        value: "$0.1",
-        total: "$1000",
+        asset: "Doodles Purple Basketball Shoe",
+        url: "https://flowty.mypinata.cloud/ipfs/Qmcy4detMgCXmYbv3FbKKbcac5AsZaatU5XgUy39Jsdtit",
+      },
+      {
+        asset: "Doodles",
+        url: "https://flowty.mypinata.cloud/ipfs/QmVjzvfP67d8ThQFPd36yMngzLhbZxzeADFmBA5x8kCVfY",
       },
     ],
   },
   {
     fundName: "Meme Fund",
-    fundAddress: "0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6",
+    fundAddress: "0xb4fbf271143fsde",
     aum: "$2,000",
     change: "+5%",
     aumChange: "-20%",
@@ -50,7 +47,7 @@ export const funds = [
   },
   {
     fundName: "Large Cap Fund",
-    fundAddress: "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
+    fundAddress: "0x07865c6e87b9f70",
     aum: "$100,200",
     change: "+8%",
     aumChange: "+40%",

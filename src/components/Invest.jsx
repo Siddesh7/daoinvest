@@ -63,13 +63,12 @@ export default function Invest({ fundDetails, change, aumchange }) {
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
                       You're about invest funds in to this fund, your fund will
-                      be secure in Canto Index Vaults and will be able to
-                      withdraw anytime!
+                      be secure in Vaults and will be able to withdraw anytime!
                     </p>
                   </div>
                   <div class="flex items-center mt-2">
                     <p class="py-2.5 px-3 text-gray-500 bg-gray-100 dark:bg-gray-800 dark:border-gray-700 border border-r-0 rtl:rounded-r-lg rtl:rounded-l-none rtl:border-l-0 rtl:border-r rounded-l-lg">
-                      $USDT
+                      $USDC
                     </p>
                     <input
                       type="text"

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Description from "../components/Description";
-import FundAllocaion from "../components/FundAllocation";
 import Invest from "../components/Invest";
+import Nft from "../components/nft";
 import { funds } from "../constant";
 
 export default function AssetPage() {
@@ -19,7 +19,8 @@ export default function AssetPage() {
   return (
     <div>
       <Invest fundDetails={fundDetails} change={change} aumchange={aumchange} />
-      <FundAllocaion allocation={fundDetails.allocation} />
+
+      <Nft nfts={fundDetails.allocation} />
       <Description description={fundDetails.description} />
     </div>
   );
