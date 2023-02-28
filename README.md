@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# DAO Invest | Asset Management Protocol
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+| Document version |
+ --- |
+| 1.0 |
 
-## Available Scripts
+## **Introduction**
 
-In the project directory, you can run:
+DAO Invest is a decentralized application (dapp) that aims to create a new standard for asset management and investing. Built on the Flow ecosystem, the DAO Invest leverages Flow Infra to provide a comprehensive suite of tools and services for users to create, manage, and invest in a diversified portfolio of digital assets.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Problem Statement**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Flow ecosystem is still in its early stages, and as it continues to grow, there is a need for more decentralized applications that can leverage the power of the ecosystem to provide users with a rich and rewarding experience. This is where the DAO Invest comes in. The DAO Invest is a revolutionary decentralized application that will provide users with a comprehensive suite of tools and services to manage and invest in a diverse portfolio of digital assets. By using smart contract technology and providing transparency and security, the DAO Invest will provide users with a user-friendly interface that makes investing in digital assets both accessible and rewarding. As the DAO Invest grows, it has the potential to become a cornerstone of the Flow ecosystem, fostering growth and development for both the Index and the ecosystem. The DAO Invest will incentivize users to engage with the ecosystem and contribute to its growth, driving engagement and creating a thriving DeFi community. In conclusion,DAO Invest represents an exciting new opportunity for investors to engage with the Flow ecosystem and tap into the potential of decentralized finance.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Target Audience**
 
-### `npm run build`
+- Non-DeFi native users
+- Traders
+- Fund Managers
+- NFT Enthusiasts
+- Strategic Traders
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Vision** 👀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Our mission is to create a platform that is accessible, user-friendly, and community-driven. By doing so, we believe that Penny will play a pivotal role in the future development of the Flow ecosystem and become a driving force in the DeFi space.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Goals** 🎯
 
-### `npm run eject`
+The development of the DAO Invest requires a clear roadmap that outlines our high-level goals. These goals include assembling a team to build an MVP, rolling out the full product, gathering user feedback, growing traction, and expanding our user base. Additionally, securing funding, expanding our team, exploring the potential for a mobile app, and expanding beyond the Cosmos ecosystem are also key priorities. While these goals represent only the initial stages of our journey, they provide a clear and concise path forward for the development and growth of the DAO Invest.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Features** 👾
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**0% Fee Investing:** DAO Invest will provide curated baskets of assets at 0% Fee to investors.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**SIP in COllector Funds:** Recurring investment for Investors.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Future Feature Plans:** For fund managers, enabling lending and margin trading using the invested funds. Also enable staking.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Roadmap** 🚗
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**Q2 2023**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Launch MVP
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
